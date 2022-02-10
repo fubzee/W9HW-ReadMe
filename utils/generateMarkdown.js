@@ -76,22 +76,25 @@ ${answers.description}
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Testing](#Testing)
-* [GIT Profile](# GIT Profile)
+* [GIT Profile](#gitprofile)
 * [Questions](#questions)
 ---
-### Installation :exclamation:
-In order to install please use:
- ${answers.installs}
----
-### Contributing
- ${answers.contributing}
+### Installation 
+:exclamation:In order to install please use:
+${answers.installs}
 ---
 ### Licence
 This project is licensed under:
  ${renderLicenseLink(answers.license)}
 ---
+### Usage
+ ${answers.usage}
+---
+### Contributing
+ ${answers.contributing}
+ ---
 ### Testing
-:${answers.tests}
+${answers.tests}
 ---
 ### GIT Profile :link: 
 This project can be found at : ${answers.gitlink}
