@@ -1,10 +1,10 @@
-# README Generator
+# read
 
-   
+  (https://img.shields.io/badge/license-npm-red.svg)
 
 
 ---
-Generates a README file after accepting a series of prompts with details about what your application does
+me
 ---
 ## Table of Contents: 
 
@@ -16,25 +16,25 @@ Generates a README file after accepting a series of prompts with details about w
 * [GIT Profile](#gitprofile)
 * [Questions](#questions)
 ---
-### Installation 
+## Installation 
 :exclamation:In order to install please use:
-NPM and run in Node
+in
 ---
-### Licence
+## Licence
 This project is licensed under:
-  
+ ![License npm]https://img.shields.io/npm/1/inquirer
 ---
-### Usage
- Proejcts
+## Usage
+ us
 ---
-### Contributing
- Not at this stage
+## Contributing
+ no
  ---
-### Testing
-There are no tests
+## Testing
+no
 ---
-### GIT Profile :link: 
-This project can be found at : https://github.com/fubzee/W9HW-ReadMe
+## GIT Profile :link: 
+This project can be found at : link
 ---
 ### Questions :question:
-* If you have any questions about this application please email me at smarti-dev@gmail.com
+* If you have any questions about this application please email me at mail

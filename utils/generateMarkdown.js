@@ -4,20 +4,21 @@ const { error } = require("console");
 const fs = require(`fs`);
 
 function renderLicenseBadge(badge) {
-
+  console.log(badge);
+  
   switch(badge){
 
     case 'NPM':
-       var badge = `(https://img.shields.io/badge/license-npm-red.svg)`;
+       badge = `(https://img.shields.io/badge/license-npm-red.svg)`;
        break;
     case 'GNU':
-      var badge =  `(https://img.shields.io/badge/License-GNUv3-blue.svg)`;
+      badge =  `(https://img.shields.io/badge/License-GNUv3-blue.svg)`;
       break;
     case 'MIT':
-      var badge =  `(https://img.shields.io/badge/License-MIT-yellow.svg)`;
+      badge =  `(https://img.shields.io/badge/License-MIT-yellow.svg)`;
       break;
     case 'MPL':
-      var badge =  `(https://img.shields.io/badge/License-MPL-yellow.svg)`;
+      badge =  `(https://img.shields.io/badge/License-MPL-yellow.svg)`;
       break;
     default:
       return badge = ` `
@@ -26,21 +27,22 @@ function renderLicenseBadge(badge) {
 }  
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(liclink) {
+console.log(liclink);
 
-  switch(license){
+  switch(liclink){
 
     case `NPM`:
-       var liclink = `![License npm]https://img.shields.io/npm/1/inquirer`;
-       break;
+      liclink = `![License npm]https://img.shields.io/npm/1/inquirer`;
+      break;
     case `GNU`:
-      var liclink =  `![License: GPL v3]https://img.shields.io/gnu`;
+      liclink =  `![License: GPL v3]https://img.shields.io/gnu`;
       break;
     case `MPL`:
-      var liclink = `![License: MIT]https://img.shields.io/MPL/l/fs`; 
+      liclink = `![License: MIT]https://img.shields.io/MPL/l/fs`; 
       break;
     case `MIT`:
-      var liclink = `![License: MIT]https://img.shields.io/MIT/l/fs`;
+      liclink = `![License: MIT]https://img.shields.io/MIT/l/fs`;
       break;
     default:
       return liclink= ` `
@@ -59,11 +61,12 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown (answers) {
+  console.log(answers);
 //  renderLicenseSection(answers.license);
   var readMe = 
 `# ${answers.title}
 
-  ${renderLicenseBadge(answers.license)}
+  ${renderLicenseBadge(answers.licences)}
 
 
 ---
@@ -79,24 +82,24 @@ ${answers.description}
 * [GIT Profile](#gitprofile)
 * [Questions](#questions)
 ---
-### Installation 
+## Installation 
 :exclamation:In order to install please use:
 ${answers.installs}
 ---
-### Licence
+## Licence
 This project is licensed under:
- ${renderLicenseLink(answers.license)}
+ ${renderLicenseLink(answers.licences)}
 ---
-### Usage
+## Usage
  ${answers.usage}
 ---
-### Contributing
+## Contributing
  ${answers.contributing}
  ---
-### Testing
+## Testing
 ${answers.tests}
 ---
-### GIT Profile :link: 
+## GIT Profile :link: 
 This project can be found at : ${answers.gitlink}
 ---
 ### Questions :question:

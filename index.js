@@ -60,7 +60,7 @@ var {generateMarkdown} = require (`./utils/generateMarkdown.js`);
       {
         type: `list`,
         name: `licences`,
-        message: `Please select the applicable licences`,
+        message: `Please select the applicable licence`,
         choices: [`NPM`, `MIT`,`GNU`,`MPL`],
         validate: (value) => {
           if (value) {
