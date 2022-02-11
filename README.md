@@ -1,9 +1,9 @@
 # README Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  [![License: NPM](https://img.shields.io/badge/license-npm-red.svg)
 
 ---
-The aplication presents a number of questions about your project and uses the answers to generate a README file. 
+Application responds to a series of prompts and uses the information provided to complete a README file about your project
 
 ## Table of Contents: 
 ---
@@ -18,24 +18,25 @@ The aplication presents a number of questions about your project and uses the an
 ## Installation 
 ---
 :exclamation:In order to install please use:
-Visial Studio Terminal and run the application in Node
+Visual Studio Code and go to  the terminal and run the index.js program with node
 
 ## Licence
 ---
 This project is licensed under:
- (https://opensource.org/licenses/MIT)
+ (https://opensource.org/licenses/Artistic-2.0)
 
 ## Usage
 ---
- The program uses NPM Inquirer for prmopting responses.  The content of the responses are used to geneate the README 
+ The application makes use of the NPM inquirer packsge to generate the questions
+ Please use this link to view a video on how to run the program -> https://watch.screencastify.com/v/fsK6IfbR80FdAGnVJnLR
 
 ## Contributing
 ---
- IF you would like to contribute to the project, then please raise an issue detailoing what you would like to do and create your own branch to make your changes.  When you are ready to merge your code please send a pull request where the issue and code will be reviewed.  Please refer to the any reviewer comments if there are some provided.  
+ If you contribute please refer to the Gitgub link below.  Raise and issue and create a feature branch.  When ready to merge your code please raise a pull request for review
 
 ## Testing
 ---
-There are no tests 
+There are no tests available
 
 ## GIT Profile :link:
 --- 
