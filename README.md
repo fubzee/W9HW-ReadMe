@@ -1,15 +1,15 @@
-# read
+# README Generator
 
-  (https://img.shields.io/badge/license-npm-red.svg)
+  [![License: NPM](https://img.shields.io/badge/license-npm-red.svg)
 
 
 ---
-me
+The application will complete the content of a README based on information provided through a series of questions that will prompt the user for the relevant information  
 ---
 ## Table of Contents: 
 
 * [Installation](#Installation)
-* [Licence](#License)
+* [Licence](#Licence)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Testing](#Testing)
@@ -18,23 +18,23 @@ me
 ---
 ## Installation 
 :exclamation:In order to install please use:
-in
+Please install NPM inquirer.  The program is run from the terminal using Node
 ---
 ## Licence
 This project is licensed under:
- ![License npm]https://img.shields.io/npm/1/inquirer
+ (https://opensource.org/licenses/Artistic-2.0)
 ---
 ## Usage
- us
+ Run the program from the terminal -> Node Index.JS.  Enter the response, this will be recorded on the README.  The program will successfully complete when the README file is created and you receive a message indicate the file is created.
 ---
 ## Contributing
- no
+ There are no contributions at this time
  ---
 ## Testing
-no
+There are no tests
 ---
 ## GIT Profile :link: 
-This project can be found at : link
+This project can be found at : The README generator can be found at https://github.com/fubzee/W9HW-ReadMe
 ---
 ### Questions :question:
-* If you have any questions about this application please email me at mail
+* If you have any questions about this application please email me at smarti-dev@gmail.com

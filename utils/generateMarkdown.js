@@ -9,16 +9,16 @@ function renderLicenseBadge(badge) {
   switch(badge){
 
     case 'NPM':
-       badge = `(https://img.shields.io/badge/license-npm-red.svg)`;
+       badge = `[![License: NPM](https://img.shields.io/badge/license-npm-red.svg)`;
        break;
     case 'GNU':
-      badge =  `(https://img.shields.io/badge/License-GNUv3-blue.svg)`;
+      badge =  `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
       break;
     case 'MIT':
-      badge =  `(https://img.shields.io/badge/License-MIT-yellow.svg)`;
+      badge =  '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
       break;
     case 'MPL':
-      badge =  `(https://img.shields.io/badge/License-MPL-yellow.svg)`;
+      badge =  `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]`;
       break;
     default:
       return badge = ` `
@@ -33,31 +33,22 @@ console.log(liclink);
   switch(liclink){
 
     case `NPM`:
-      liclink = `![License npm]https://img.shields.io/npm/1/inquirer`;
+      liclink = `(https://opensource.org/licenses/Artistic-2.0)`;
       break;
     case `GNU`:
-      liclink =  `![License: GPL v3]https://img.shields.io/gnu`;
+      liclink =  `(https://www.gnu.org/licenses/gpl-3.0)`;
       break;
     case `MPL`:
-      liclink = `![License: MIT]https://img.shields.io/MPL/l/fs`; 
+      liclink = `(https://opensource.org/licenses/MPL-2.0)`; 
       break;
     case `MIT`:
-      liclink = `![License: MIT]https://img.shields.io/MIT/l/fs`;
+      liclink = `(https://opensource.org/licenses/MIT)`;
       break;
     default:
       return liclink= ` `
   }
   return liclink;
 } 
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  
- //      renderLicenseBadge(license);
- //      renderLicenseLink(license);
-
-}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown (answers) {
@@ -75,7 +66,7 @@ ${answers.description}
 ## Table of Contents: 
 
 * [Installation](#Installation)
-* [Licence](#License)
+* [Licence](#Licence)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Testing](#Testing)
