@@ -1,13 +1,12 @@
 # README Generator
 
-  [![License: NPM](https://img.shields.io/badge/license-npm-red.svg)
-
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ---
-The application will complete the content of a README based on information provided through a series of questions that will prompt the user for the relevant information  
----
+The aplication presents a number of questions about your project and uses the answers to generate a README file. 
+
 ## Table of Contents: 
-
+---
 * [Installation](#Installation)
 * [Licence](#Licence)
 * [Usage](#usage)
@@ -15,26 +14,33 @@ The application will complete the content of a README based on information provi
 * [Testing](#Testing)
 * [GIT Profile](#gitprofile)
 * [Questions](#questions)
----
+
 ## Installation 
+---
 :exclamation:In order to install please use:
-Please install NPM inquirer.  The program is run from the terminal using Node
----
+Visial Studio Terminal and run the application in Node
+
 ## Licence
+---
 This project is licensed under:
- (https://opensource.org/licenses/Artistic-2.0)
----
+ (https://opensource.org/licenses/MIT)
+
 ## Usage
- Run the program from the terminal -> Node Index.JS.  Enter the response, this will be recorded on the README.  The program will successfully complete when the README file is created and you receive a message indicate the file is created.
 ---
+ The program uses NPM Inquirer for prmopting responses.  The content of the responses are used to geneate the README 
+
 ## Contributing
- There are no contributions at this time
- ---
+---
+ IF you would like to contribute to the project, then please raise an issue detailoing what you would like to do and create your own branch to make your changes.  When you are ready to merge your code please send a pull request where the issue and code will be reviewed.  Please refer to the any reviewer comments if there are some provided.  
+
 ## Testing
-There are no tests
 ---
-## GIT Profile :link: 
-This project can be found at : The README generator can be found at https://github.com/fubzee/W9HW-ReadMe
----
+There are no tests 
+
+## GIT Profile :link:
+--- 
+This project can be found at : https://github.com/fubzee/W9HW-ReadMe
+
 ### Questions :question:
-* If you have any questions about this application please email me at smarti-dev@gmail.com
+---
+* If you have any questions about this application please email me at smarti-dev@outlook.com

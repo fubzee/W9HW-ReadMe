@@ -1,11 +1,6 @@
-// TODO: Include packages needed for this application
 const inquirer = require(`inquirer`);
 
-//const { Console } = require(`console`);
 var {generateMarkdown} = require (`./utils/generateMarkdown.js`);
-
-// TODO: Create an array of questions for user input
-// TODO: Create a function to initialize app
 
  function init() {
     inquirer.prompt([
@@ -36,7 +31,7 @@ var {generateMarkdown} = require (`./utils/generateMarkdown.js`);
       {
         type: `input`,
         name: `installs`,
-        meessage: `In order to install please use:`,
+        message: `In order to install please use:`,
         validate: (value) => {
           if (value) {
             return true;
@@ -78,7 +73,7 @@ var {generateMarkdown} = require (`./utils/generateMarkdown.js`);
           if (value) {
             return true;
           } else {
-            return `Please select at least one option`;
+            return `Will there be contributions?`;
           }
         },
       },
@@ -97,7 +92,7 @@ var {generateMarkdown} = require (`./utils/generateMarkdown.js`);
       {
         type: `input`,
         name: `gitlink`,
-        display: "Git Hub Profile",
+        message: "Git Hub Profile",
         validate: (value) => {
           if (value) {
             return true;

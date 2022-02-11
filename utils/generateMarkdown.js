@@ -52,19 +52,17 @@ console.log(liclink);
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown (answers) {
-  console.log(answers);
-//  renderLicenseSection(answers.license);
+
   var readMe = 
 `# ${answers.title}
 
   ${renderLicenseBadge(answers.licences)}
 
-
 ---
 ${answers.description}
----
-## Table of Contents: 
 
+## Table of Contents: 
+---
 * [Installation](#Installation)
 * [Licence](#Licence)
 * [Usage](#usage)
@@ -72,32 +70,38 @@ ${answers.description}
 * [Testing](#Testing)
 * [GIT Profile](#gitprofile)
 * [Questions](#questions)
----
+
 ## Installation 
+---
 :exclamation:In order to install please use:
 ${answers.installs}
----
+
 ## Licence
+---
 This project is licensed under:
  ${renderLicenseLink(answers.licences)}
----
+
 ## Usage
+---
  ${answers.usage}
----
+
 ## Contributing
+---
  ${answers.contributing}
- ---
+
 ## Testing
+---
 ${answers.tests}
----
-## GIT Profile :link: 
+
+## GIT Profile :link:
+--- 
 This project can be found at : ${answers.gitlink}
----
+
 ### Questions :question:
+---
 * If you have any questions about this application please email me at ${answers.email}`;
 
 fs.writeFile(`./README.md`,readMe, error => error? console.log(error) : console.log(`File created`)) 
 };
 
 module.exports = {generateMarkdown}
-
